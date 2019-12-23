@@ -42,7 +42,7 @@ public class Journey {
 	
 	@Override
 	public String toString() {
-		return "Journey= [duration=" + duration + " min, departure=" + departure + ", arrival=" + arrival+"]";
+		return departure + " -> " + arrival+ " = " + duration + " minutes" + "\n";
 	}
 
 }

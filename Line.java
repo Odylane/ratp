@@ -18,7 +18,7 @@ public class Line extends Object {
 
 	@Override
 	public String toString() {
-		return "Line [" + name + "]";
+		return "Line " + name;
 	}
 
 }

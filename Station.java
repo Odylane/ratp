@@ -8,7 +8,7 @@ public class Station {
 	
 	@Override
 	public String toString() {
-		return "Station ["+name + ", " + line + "]";
+		return name + " (" + line + ")";
 	}
 
 	public Station(String name, Line line) {
